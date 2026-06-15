@@ -39,11 +39,11 @@ Sistema completo de **CRUD (Create, Read, Update, Delete)** para gerenciamento d
 ```bash
 git clone https://github.com/c4rm4XXV/crud-project.git
 cd crud-project
-
+```
 ### Passo 2: Instale as dependências
 ```cmd
 npm install express body-parser mysql2 dotenv ejs
-
+```
 ### Passo 3:  Configure o banco de dados no Aiven
 
 - Acesse https://aiven.io e crie uma conta (grátis)
@@ -53,15 +53,16 @@ npm install express body-parser mysql2 dotenv ejs
 
 ```bash
 cp .env.example .env
+```
 
-.env
+```.env
 DATABASE_URL=mysql://usuario:senha@host:porta/defaultdb?ssl-mode=REQUIRED
-
+```
 ### Passo 4:  Execute o servidor
 
 ```bash
 npm start
-
+```
 
 
 
